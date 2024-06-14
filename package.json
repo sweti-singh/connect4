@@ -1,6 +1,6 @@
 {
   "name": "connect4",
-  "homepage": "http://sweti-singh.github.io/connect4", 
+  "homepage": "http://sweti-singh.github.io/connect4",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
