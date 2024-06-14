@@ -134,7 +134,7 @@ function App() {
         )
       })}
     </div>
-    <h1 className={`${player2.chance ? null : 'player-name-visible'}`}>{t('reset.player1')}</h1>
+    <h1 className={`${player2.chance ? null : 'player-name-visible'}`}>{t('reset.player2')}</h1>
     <h1 className={`winning-style ${won=== 'Player 1 wins'? 'player1' : 'player2'}`}>{won}</h1>
     {won && <button onClick={handleReset}>{t("reset.reset1")}</button>}
     </div>
